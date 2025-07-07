@@ -1,4 +1,4 @@
-# MailMind-Email-with-a-mind-of-its-own.
+# MailMind ~ Email with a mind of its own!
 
 ## 🧠 AI-Powered Email Assistant
 
