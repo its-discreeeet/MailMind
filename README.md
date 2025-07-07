@@ -1,10 +1,11 @@
 # MailMind-Email-with-a-mind-of-its-own.
 
-🧠 AI-Powered Email Assistant
+## 🧠 AI-Powered Email Assistant
 ![alt text](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 
-![alt text](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 An automated, multi-agent email processing system built with Python, LangGraph, and the Deepseek LLM API. This assistant can fetch, filter, summarize, and draft replies to your emails, with a human-in-the-loop for final approval.
+
 ✨ Core Features
 📧 Automated Email Fetching: Connects to any IMAP server to fetch unread emails in real-time.
 🧪 Local Testing Mode: Ingest emails from a sample_emails.json file for development without live credentials.
@@ -20,21 +21,10 @@ Robust Logging & Error Handling: Provides detailed logs for each step and gracef
 
 The system processes each email through a state graph managed by LangGraph. Each node in the graph is an "agent" with a specific task.
 
-```
-graph TD
-    A[Start: Fetch Unread Email] --> B{Filter Agent};
-    B -->|Email is Spam| G[End Process];
-    B -->|Email is Important| C{Summarize Agent};
-    C --> D{Response Agent};
-    D --> E{Decision: Needs Review?};
-    E -->|Yes| F(Human Review);
-    E -->|No: Auto-Approve| H{Send/Save Draft};
-    F -->|User Rejects| G;
-    F -->|User Approves/Edits| H;
-    H --> G;
-```
+![Untitled diagram _ Mermaid Chart-2025-07-07-221530](https://github.com/user-attachments/assets/3ddd366f-8d78-4a00-a691-c5a80e60ef5a)
 
-🛠️ Tech Stack
+
+## 🛠️ Tech Stack
 Orchestration: LangGraph
 Language Model: Deepseek API via langchain-deepseek
 Core Framework: LangChain
@@ -42,21 +32,30 @@ Data Validation: Pydantic
 Email Integration: imaplib2 (fetching), smtplib (sending)
 Configuration: python-dotenv
 
-🗂️ Project Structure
-Generated code
-.
+## 🗂️ Project Structure
+
 ├── agents/              # Contains individual agent logic
+
 ├── config.py            # Loads environment variables
+
 ├── core/                # Core components (state, supervisor, email handlers)
+
 ├── drafts/              # Stores saved draft responses
+
 ├── .env                 # Local environment variables (API keys, credentials)
+
 ├── main.py              # Main entry point for the application
+
 ├── requirements.txt     # Project dependencies
+
 ├── sample_emails.json   # Sample data for local testing
+
 ├── test_email.py        # Unit tests for the system
+
 └── utils/               # Helper utilities (logger, formatter)
 
-🚀 Getting Started
+
+## 🚀 Getting Started
 Follow these steps to set up and run the project on your local machine.
 
 1. Prerequisites
@@ -77,16 +76,16 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-# Deepseek API Configuration
+### Deepseek API Configuration
 DEEPSEEK_API_KEY="your_deepseek_api_key"
 
-# SMTP (Sending) Email Configuration
+###  SMTP (Sending) Email Configuration
 EMAIL_SERVER="smtp.gmail.com"
 EMAIL_PORT=587
 EMAIL_USERNAME="your.email@gmail.com"
 EMAIL_PASSWORD="your_google_app_password"
 
-# IMAP (Fetching) Email Configuration
+###  IMAP (Fetching) Email Configuration
 IMAP_SERVER="imap.gmail.com"
 IMAP_PORT=993
 IMAP_USERNAME="your.email@gmail.com"
