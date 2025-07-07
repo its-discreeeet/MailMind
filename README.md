@@ -1,6 +1,6 @@
 # MailMind ~ Email with a mind of its own!
 
-## 🧠 AI-Powered Email Assistant
+## What is MailMind?
 
 An automated, multi-agent email processing system built with Python, LangGraph, and the Deepseek LLM API. This assistant can fetch, filter, summarize, and draft replies to your emails, with a human-in-the-loop for final approval.
 
