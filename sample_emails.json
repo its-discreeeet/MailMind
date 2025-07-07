@@ -1,0 +1,32 @@
+[
+  {
+    "email_id": "sample-1",
+    "sender": "no-reply@billing.com",
+    "subject": "Your monthly invoice is here",
+    "body": "<html><body><p>Dear Customer,</p><p>Your invoice for the month of July is attached. The total amount due is $42.50.</p><p>Thank you for your business.</p></body></html>"
+  },
+  {
+    "email_id": "sample-2",
+    "sender": "colleague@work.com",
+    "subject": "Urgent: Project Deadline",
+    "body": "Hi team, quick reminder that the deadline for the Phoenix project is this Friday. Please submit all your deliverables by then. Let me know if you have any blockers."
+  },
+  {
+    "email_id": "sample-3",
+    "sender": "marketing@great-deals.com",
+    "subject": "💥 50% OFF EVERYTHING! DON'T MISS OUT! 💥",
+    "body": "You've been selected for our biggest sale of the year! Get 50% off all items. Click here to shop now! Limited time offer."
+  },
+  {
+    "email_id": "sample-4",
+    "sender": "potential-client@startup.io",
+    "subject": "Question about your services",
+    "body": "Hello, I found your company online and I'm interested in your AI consulting services. Could you provide more information on your pricing and typical engagement model? Thanks, Jane Doe."
+  },
+  {
+    "email_id": "sample-5",
+    "sender": "hr@corporate.com",
+    "subject": "Company-wide Update: New Holiday Policy",
+    "body": "All, please be advised of the new company holiday policy, effective immediately. The updated handbook is available on the company intranet. No action is required from your side."
+  }
+]

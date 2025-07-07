@@ -1,0 +1,10 @@
+langchain
+langgraph
+langchain-deepseek
+imaplib2
+python-dotenv
+pydantic
+typing_extensions
+jupyter
+pytest
+beautifulsoup4
