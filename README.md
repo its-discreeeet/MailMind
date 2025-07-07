@@ -4,16 +4,16 @@
 
 An automated, multi-agent email processing system built with Python, LangGraph, and the Deepseek LLM API. This assistant can fetch, filter, summarize, and draft replies to your emails, with a human-in-the-loop for final approval.
 
-✨ Core Features
-📧 Automated Email Fetching: Connects to any IMAP server to fetch unread emails in real-time.
-🧪 Local Testing Mode: Ingest emails from a sample_emails.json file for development without live credentials.
-🤖 AI-Powered Classification: Uses Deepseek's LLM to intelligently categorize emails into spam, urgent, informational, or needs_review.
-📝 Concise Summarization: Generates short, 2-3 sentence summaries for long emails, helping you grasp the context quickly.
-✍️ Automatic Response Generation: Drafts professional, context-aware replies to emails that require action.
-🧠 Stateful Agent Workflow: Orchestrated by LangGraph, the system processes each email through a resilient, state-driven graph of agents.
-🕵️ Human-in-the-Loop: Ensures control by flagging complex or sensitive drafts for human review. You can approve, edit, or reject any AI-generated response.
-📤 SMTP Integration: Sends approved emails automatically via your configured SMTP server.
-Robust Logging & Error Handling: Provides detailed logs for each step and gracefully handles common issues like API errors or email parsing failures.
+✨ **Core Features**
+- 📧 Automated Email Fetching: Connects to any IMAP server to fetch unread emails in real-time.
+- 🧪 Local Testing Mode: Ingest emails from a sample_emails.json file for development without live credentials.
+- 🤖 AI-Powered Classification: Uses Deepseek's LLM to intelligently categorize emails into spam, urgent, informational, or needs_review.
+- 📝 Concise Summarization: Generates short, 2-3 sentence summaries for long emails, helping you grasp the context quickly.
+- ✍️ Automatic Response Generation: Drafts professional, context-aware replies to emails that require action.
+- 🧠 Stateful Agent Workflow: Orchestrated by LangGraph, the system processes each email through a resilient, state-driven graph of agents.
+- 🕵️ Human-in-the-Loop: Ensures control by flagging complex or sensitive drafts for human review. You can approve, edit, or reject any AI-generated response.
+- 📤 SMTP Integration: Sends approved emails automatically via your configured SMTP server.
+- Robust Logging & Error Handling: Provides detailed logs for each step and gracefully handles common issues like API errors or email parsing failures.
 
 ## ⚙️ How It Works: The Workflow
 
