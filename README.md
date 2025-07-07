@@ -1,8 +1,6 @@
 # MailMind-Email-with-a-mind-of-its-own.
 
 ## 🧠 AI-Powered Email Assistant
-![alt text](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-
 
 An automated, multi-agent email processing system built with Python, LangGraph, and the Deepseek LLM API. This assistant can fetch, filter, summarize, and draft replies to your emails, with a human-in-the-loop for final approval.
 
@@ -17,7 +15,7 @@ An automated, multi-agent email processing system built with Python, LangGraph, 
 📤 SMTP Integration: Sends approved emails automatically via your configured SMTP server.
 Robust Logging & Error Handling: Provides detailed logs for each step and gracefully handles common issues like API errors or email parsing failures.
 
-⚙️ How It Works: The Workflow
+## ⚙️ How It Works: The Workflow
 
 The system processes each email through a state graph managed by LangGraph. Each node in the graph is an "agent" with a specific task.
 
