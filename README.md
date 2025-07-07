@@ -23,12 +23,12 @@ The system processes each email through a state graph managed by LangGraph. Each
 
 
 ## 🛠️ Tech Stack
-Orchestration: LangGraph
-Language Model: Deepseek API via langchain-deepseek
-Core Framework: LangChain
-Data Validation: Pydantic
-Email Integration: imaplib2 (fetching), smtplib (sending)
-Configuration: python-dotenv
+- Orchestration: LangGraph
+- Language Model: Deepseek API via langchain-deepseek
+- Core Framework: LangChain
+- Data Validation: Pydantic
+- Email Integration: imaplib2 (fetching), smtplib (sending)
+- Configuration: python-dotenv
 
 ## 🗂️ Project Structure
 
