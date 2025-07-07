@@ -65,8 +65,7 @@ Note for Gmail users: You will need to generate an "App Password" to use for EMA
 3. Installation
 Clone the repository:
 ```
-git clone https://github.com/your-username/ai-email-assistant.git
-cd ai-email-assistant
+git clone https://github.com/its-discreeeet/MailMind.git
 ```
 
 Install the required dependencies:
